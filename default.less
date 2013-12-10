@@ -1,6 +1,3 @@
-@import "Amelia/variables.less";
-@import "../assets/components/bootstrap/less/mixins.less";
-
 /*!
 * jQuery Mobile 1.3.2
 * Git HEAD hash: 528cf0e96940644ea644096bfeb913ed920ffaef <> Date: Fri Jul 19 2013 22:17:57 UTC
@@ -11,7 +8,8 @@
 * http://jquery.org/license
 *
 */
-
+@import "../assets/components/bootstrap/less/mixins.less";
+@import "Amelia/variables.less";
 
 /* Swatches */
 /* A
@@ -976,7 +974,7 @@ a.ui-link-inherit {
 }
 .ui-checkbox-on .ui-icon,
 .ui-radio-on .ui-icon {
-  background-color: #387bbe ; /* NOTE: this hex should match the active state color. It's repeated here for cascade */
+  background-color: @gray-light ; /* NOTE: this hex should match the active state color. It's repeated here for cascade */
 }
 /* loading icon */
 .ui-icon-loading {
@@ -1006,9 +1004,9 @@ a.ui-link-inherit {
   height: 100%;
 }
 .ui-overlay-shadow {
-  -moz-box-shadow: 0 0 12px       rgba(0,0,0,.6);
-  -webkit-box-shadow: 0 0 12px    rgba(0,0,0,.6);
-  box-shadow: 0 0 12px        rgba(0,0,0,.6);
+  -moz-box-shadow: 0 0 12px       @tooltip-bg;
+  -webkit-box-shadow: 0 0 12px    @tooltip-bg;
+  box-shadow: 0 0 12px        @tooltip-bg;
 }
 .ui-shadow {
   -moz-box-shadow: 0 1px 3px  @modal-content-border-color ;
@@ -1018,9 +1016,9 @@ a.ui-link-inherit {
 .ui-bar-a .ui-shadow,
 .ui-bar-b .ui-shadow ,
 .ui-bar-c .ui-shadow  {
-  -moz-box-shadow: 0 1px 0        rgba(255,255,255,.3);
-  -webkit-box-shadow: 0 1px 0       rgba(255,255,255,.3);
-  box-shadow: 0 1px 0           rgba(255,255,255,.3);
+  -moz-box-shadow: 0 1px 0        @text-muted;
+  -webkit-box-shadow: 0 1px 0       @text-muted;
+  box-shadow: 0 1px 0           @text-muted;
 }
 .ui-shadow-inset {
   -moz-box-shadow: inset 0 1px 4px    @modal-content-border-color;
@@ -1028,9 +1026,9 @@ a.ui-link-inherit {
   box-shadow: inset 0 1px 4px       @modal-content-border-color;
 }
 .ui-icon-shadow {
-  -moz-box-shadow: 0 1px 0 rgba(255,255,255,.4) ;
-  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.4) ;
-  box-shadow: 0 1px 0 rgba(255,255,255,.4) ;
+  -moz-box-shadow: 0 1px 0 @text-muted ;
+  -webkit-box-shadow: 0 1px 0 @text-muted ;
+  box-shadow: 0 1px 0 @text-muted ;
 }
 /* Focus state - set here for specificity (note: these classes are added by JavaScript)
 -----------------------------------------------------------------------------------------------------------*/
@@ -1042,15 +1040,15 @@ a.ui-link-inherit {
 }
 .ui-focus,
 .ui-btn:focus {
-  -moz-box-shadow: inset 0 0 3px #387bbe , 0 0 9px #387bbe ;
-  -webkit-box-shadow: inset 0 0 3px #387bbe , 0 0 9px #387bbe ;
-  box-shadow: inset 0 0 3px #387bbe , 0 0 9px #387bbe ;
+  -moz-box-shadow: inset 0 0 3px @brand-primary , 0 0 9px @brand-primary ;
+  -webkit-box-shadow: inset 0 0 3px @brand-primary , 0 0 9px @brand-primary ;
+  box-shadow: inset 0 0 3px @brand-primary , 0 0 9px @brand-primary ;
 }
 .ui-input-text.ui-focus,
 .ui-input-search.ui-focus {
-  -moz-box-shadow: 0 0 12px #387bbe ;
-  -webkit-box-shadow: 0 0 12px #387bbe ;
-  box-shadow: 0 0 12px #387bbe ;  
+  -moz-box-shadow: 0 0 12px @brand-primary ;
+  -webkit-box-shadow: 0 0 12px @brand-primary ;
+  box-shadow: 0 0 12px @brand-primary ;
 }
 /* unset box shadow in browsers that don't do it right
 -----------------------------------------------------------------------------------------------------------*/

@@ -1162,7 +1162,7 @@ a.ui-link-inherit {
 
 .ui-checkbox-on .ui-icon,
 .ui-radio-on .ui-icon {
-  background-color: #387bbe ;
+  background-color: #bbbbbb;
   /* NOTE: this hex should match the active state color. It's repeated here for cascade */
 
 }
@@ -1203,9 +1203,9 @@ a.ui-link-inherit {
 }
 
 .ui-overlay-shadow {
-  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
-     -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
-          box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+     -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+          box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
 }
 
 .ui-shadow {
@@ -1217,9 +1217,9 @@ a.ui-link-inherit {
 .ui-bar-a .ui-shadow,
 .ui-bar-b .ui-shadow,
 .ui-bar-c .ui-shadow {
-  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
-     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
-          box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+          box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
 }
 
 .ui-shadow-inset {
@@ -1229,9 +1229,9 @@ a.ui-link-inherit {
 }
 
 .ui-icon-shadow {
-  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
-     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
-          box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+          box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
 }
 
 /* Focus state - set here for specificity (note: these classes are added by JavaScript)
@@ -1248,16 +1248,16 @@ a.ui-link-inherit {
 
 .ui-focus,
 .ui-btn:focus {
-  -webkit-box-shadow: inset 0 0 3px #387bbe , 0 0 9px #387bbe ;
-     -moz-box-shadow: inset 0 0 3px #387bbe , 0 0 9px #387bbe ;
-          box-shadow: inset 0 0 3px #387bbe , 0 0 9px #387bbe ;
+  -webkit-box-shadow: inset 0 0 3px #ad1d28, 0 0 9px #ad1d28;
+     -moz-box-shadow: inset 0 0 3px #ad1d28, 0 0 9px #ad1d28;
+          box-shadow: inset 0 0 3px #ad1d28, 0 0 9px #ad1d28;
 }
 
 .ui-input-text.ui-focus,
 .ui-input-search.ui-focus {
-  -webkit-box-shadow: 0 0 12px #387bbe ;
-     -moz-box-shadow: 0 0 12px #387bbe ;
-          box-shadow: 0 0 12px #387bbe ;
+  -webkit-box-shadow: 0 0 12px #ad1d28;
+     -moz-box-shadow: 0 0 12px #ad1d28;
+          box-shadow: 0 0 12px #ad1d28;
 }
 
 /* unset box shadow in browsers that don't do it right
