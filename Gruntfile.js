@@ -13,13 +13,13 @@ module.exports = function(grunt) {
                 compile : true,
                 compress : false
               },
-            src : ['default.less'],
-            dest : 'default.css'
+            src : ['less/jquery.mobile.theme.less'],
+            dest : 'dist/jquery.mobile.theme.css'
             },
     },
 
     watch: {
-      files: ['default.less'],
+      files: ['less/jquery.mobile.theme.less'],
       tasks: ['default']
     }
   });
