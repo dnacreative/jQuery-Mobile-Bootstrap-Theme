@@ -1,4 +1,4 @@
-Amelia
-node_modules
-assets
+/assets
+/.project
+/.settings
 .DS_Store
