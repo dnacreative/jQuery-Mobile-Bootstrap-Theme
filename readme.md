@@ -13,7 +13,15 @@ You can just grab the dist folder to get the theme based on bootstrap3.
 
 If you want to make jQuery mobile theme fit your bootstrap theme, you can build it.
 
-# How to build a new jquery mobile theme based on your bootstrap theme ?
+# How to build
+
+Just install nodejs, grunt and bower then:
+
+* npm install
+* bower install
+* grunt
+
+# How to do my theme
 
 Grab the file under less folder into your project,
-adapt jquery.mobile.theme.less import path and build it.
+adapt jquery.mobile.theme.less's import path and build it.
