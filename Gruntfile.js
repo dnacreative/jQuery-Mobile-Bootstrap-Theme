@@ -19,7 +19,7 @@ module.exports = function(grunt) {
     },
 
     watch: {
-      files: ['less/jquery.mobile.theme.less'],
+      files: ['less/*.less'],
       tasks: ['default']
     }
   });
