@@ -116,7 +116,7 @@
   background-image: -ms-linear-gradient(#fbfbfb, #eeeeee);
   background-image: -o-linear-gradient(#fbfbfb, #eeeeee);
   background-image: linear-gradient(#fbfbfb, #eeeeee);
-  border: 1px solid #eeeeee;
+  border: 1px solid #999999;
 }
 
 .ui-btn-up-a:visited,
@@ -135,7 +135,7 @@
   background-image: -ms-linear-gradient(#ffffff, #ffffff);
   background-image: -o-linear-gradient(#ffffff, #ffffff);
   background-image: linear-gradient(#ffffff, #ffffff);
-  border: 1px solid #eeeeee;
+  border: 1px solid #999999;
 }
 
 .ui-btn-hover-a:visited,
@@ -155,7 +155,7 @@
   background-image: -ms-linear-gradient(#d5d5d5, #c8c8c8);
   background-image: -o-linear-gradient(#d5d5d5, #c8c8c8);
   background-image: linear-gradient(#d5d5d5, #c8c8c8);
-  border: 1px solid #eeeeee;
+  border: 1px solid #999999;
 }
 
 .ui-btn-down-a:visited,
