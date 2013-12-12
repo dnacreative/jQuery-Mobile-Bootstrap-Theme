@@ -46,7 +46,7 @@
         "body-shadow-y": "0",
         "body-shadow-radius": "0",
         "body-shadow-color": "@text-color",
-        "bup-background-color": "@gray-lighter",
+        "bup-background-color": "lighten(@gray-lighter, 7%)",
         "bup-background-start": "lighten(@gray-lighter, 5%)",
         "bup-background-end": "@gray-lighter",
         "bup-border": "@gray-light",
