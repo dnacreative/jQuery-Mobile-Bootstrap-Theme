@@ -42,3 +42,9 @@ Then you can copy the results from the dist folder.
 * [Makina Corpus](http://www.makina-corpus)
 * [Samuel MARTIN](https://github.com/samaradona)
 * [Jean-Michel FRANCOIS](https://github.com/toutpt)
+
+# Screenshot
+
+[View the demo](http://makinacorpus.github.io/jQuery-Mobile-Bootstrap-Theme/)
+
+![Swatches A - F](http://makinacorpus.github.io/jQuery-Mobile-Bootstrap-Theme/dist/images/ABCDEF.png)
